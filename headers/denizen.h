@@ -1,3 +1,9 @@
+///////////////////////////////////////////////////////////////////////
+//  Header file for Denizen Class                                    //
+//  Developed by Jacob Ojennus, Zach Marble, and Garrett Daviscourt  //
+//  For CS-274-1                                                     //
+///////////////////////////////////////////////////////////////////////
+
 #ifndef DENIZEN_H
 #define DENIZEN_H
 

@@ -1,3 +1,9 @@
+///////////////////////////////////////////////////////////////////////
+//  Zombie Apocalypse Simulation!                                    //
+//  Developed by Jacob Ojennus, Zach Marble, and Garrett Daviscourt  //
+//  For CS-274-1                                                     //
+///////////////////////////////////////////////////////////////////////
+
 #include <iostream>
 #include "city.h"
 

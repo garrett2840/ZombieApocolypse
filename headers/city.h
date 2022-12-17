@@ -1,3 +1,9 @@
+///////////////////////////////////////////////////////////////////////
+//  Header file for City Class                                    //
+//  Developed by Jacob Ojennus, Zach Marble, and Garrett Daviscourt  //
+//  For CS-274-1                                                     //
+///////////////////////////////////////////////////////////////////////
+
 #ifndef CITY_H
 #define CITY_H
 
