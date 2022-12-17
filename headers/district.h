@@ -5,6 +5,9 @@
 #include <map>
 #include "denizen.h"
 
+// District class
+// Manages the denizen class
+// Allows all denizens in the district to interact
 class District {
 private:
     friend class City; // Gives the city class access to District atrributes

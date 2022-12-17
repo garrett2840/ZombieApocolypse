@@ -6,45 +6,38 @@ Suburbs | Ignorant: 900 | Alarmed: 0 | Zombie: 0 | Doctor: 0
 Downtown | Ignorant: 600 | Alarmed: 0 | Zombie: 0 | Doctor: 0
 
 Simville | Day: 1
-Total City | Ignorant: 983 | Alarmed: 932 | Zombie: 77 | Doctor: 8
-Medical Hill | Ignorant: 47 | Alarmed: 188 | Zombie: 9 | Doctor: 4
-University District | Ignorant: 25 | Alarmed: 214 | Zombie: 32 | Doctor: 3
-Suburbs | Ignorant: 628 | Alarmed: 278 | Zombie: 12 | Doctor: 1
-Downtown | Ignorant: 283 | Alarmed: 252 | Zombie: 24 | Doctor: 0
+Total City | Ignorant: 719 | Alarmed: 1174 | Zombie: 98 | Doctor: 9
+Medical Hill | Ignorant: 110 | Alarmed: 246 | Zombie: 18 | Doctor: 3
+University District | Ignorant: 38 | Alarmed: 261 | Zombie: 30 | Doctor: 4
+Suburbs | Ignorant: 353 | Alarmed: 352 | Zombie: 31 | Doctor: 2
+Downtown | Ignorant: 218 | Alarmed: 315 | Zombie: 19 | Doctor: 0
 
 Simville | Day: 2
-Total City | Ignorant: 1 | Alarmed: 1367 | Zombie: 626 | Doctor: 6
-Medical Hill | Ignorant: 0 | Alarmed: 350 | Zombie: 128 | Doctor: 3
-University District | Ignorant: 0 | Alarmed: 288 | Zombie: 185 | Doctor: 1
-Suburbs | Ignorant: 1 | Alarmed: 412 | Zombie: 148 | Doctor: 2
-Downtown | Ignorant: 0 | Alarmed: 317 | Zombie: 165 | Doctor: 0
+Total City | Ignorant: 1 | Alarmed: 1241 | Zombie: 751 | Doctor: 7
+Medical Hill | Ignorant: 0 | Alarmed: 330 | Zombie: 168 | Doctor: 2
+University District | Ignorant: 0 | Alarmed: 311 | Zombie: 182 | Doctor: 3
+Suburbs | Ignorant: 1 | Alarmed: 308 | Zombie: 212 | Doctor: 2
+Downtown | Ignorant: 0 | Alarmed: 292 | Zombie: 189 | Doctor: 0
 
 Simville | Day: 3
-Total City | Ignorant: 0 | Alarmed: 350 | Zombie: 1649 | Doctor: 1
-Medical Hill | Ignorant: 0 | Alarmed: 89 | Zombie: 423 | Doctor: 1
-University District | Ignorant: 0 | Alarmed: 91 | Zombie: 384 | Doctor: 0
-Suburbs | Ignorant: 0 | Alarmed: 90 | Zombie: 399 | Doctor: 0
-Downtown | Ignorant: 0 | Alarmed: 80 | Zombie: 443 | Doctor: 0
+Total City | Ignorant: 0 | Alarmed: 267 | Zombie: 1731 | Doctor: 2
+Medical Hill | Ignorant: 0 | Alarmed: 79 | Zombie: 443 | Doctor: 2
+University District | Ignorant: 0 | Alarmed: 76 | Zombie: 415 | Doctor: 0
+Suburbs | Ignorant: 0 | Alarmed: 53 | Zombie: 451 | Doctor: 0
+Downtown | Ignorant: 0 | Alarmed: 59 | Zombie: 422 | Doctor: 0
 
 Simville | Day: 4
-Total City | Ignorant: 0 | Alarmed: 38 | Zombie: 1961 | Doctor: 1
-Medical Hill | Ignorant: 0 | Alarmed: 9 | Zombie: 497 | Doctor: 0
-University District | Ignorant: 0 | Alarmed: 11 | Zombie: 477 | Doctor: 1
-Suburbs | Ignorant: 0 | Alarmed: 10 | Zombie: 479 | Doctor: 0
-Downtown | Ignorant: 0 | Alarmed: 8 | Zombie: 508 | Doctor: 0
+Total City | Ignorant: 0 | Alarmed: 24 | Zombie: 1976 | Doctor: 0
+Medical Hill | Ignorant: 0 | Alarmed: 11 | Zombie: 495 | Doctor: 0
+University District | Ignorant: 0 | Alarmed: 6 | Zombie: 477 | Doctor: 0
+Suburbs | Ignorant: 0 | Alarmed: 5 | Zombie: 503 | Doctor: 0
+Downtown | Ignorant: 0 | Alarmed: 2 | Zombie: 501 | Doctor: 0
 
 Simville | Day: 5
-Total City | Ignorant: 0 | Alarmed: 6 | Zombie: 1994 | Doctor: 0
-Medical Hill | Ignorant: 0 | Alarmed: 2 | Zombie: 508 | Doctor: 0
-University District | Ignorant: 0 | Alarmed: 3 | Zombie: 518 | Doctor: 0
-Suburbs | Ignorant: 0 | Alarmed: 0 | Zombie: 486 | Doctor: 0
-Downtown | Ignorant: 0 | Alarmed: 1 | Zombie: 482 | Doctor: 0
+Total City | Ignorant: 0 | Alarmed: 4 | Zombie: 1996 | Doctor: 0
+Medical Hill | Ignorant: 0 | Alarmed: 3 | Zombie: 513 | Doctor: 0
+University District | Ignorant: 0 | Alarmed: 1 | Zombie: 494 | Doctor: 0
+Suburbs | Ignorant: 0 | Alarmed: 0 | Zombie: 521 | Doctor: 0
+Downtown | Ignorant: 0 | Alarmed: 0 | Zombie: 468 | Doctor: 0
 
-Simville | Day: 6
-Total City | Ignorant: 0 | Alarmed: 1 | Zombie: 1999 | Doctor: 0
-Medical Hill | Ignorant: 0 | Alarmed: 0 | Zombie: 515 | Doctor: 0
-University District | Ignorant: 0 | Alarmed: 0 | Zombie: 523 | Doctor: 0
-Suburbs | Ignorant: 0 | Alarmed: 1 | Zombie: 478 | Doctor: 0
-Downtown | Ignorant: 0 | Alarmed: 0 | Zombie: 483 | Doctor: 0
-
-After 150 hours, all denizens have been zombified!
+After 139 hours, all denizens have been zombified!

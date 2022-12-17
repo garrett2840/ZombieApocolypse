@@ -24,8 +24,8 @@ public:
 };
 
 // Ignorant Class, child of Denizen
-// Has a 50% chance of being infected by a zombie
-// Has a 0% chance of moving to another district
+// Has a 20% chance of being infected by a zombie
+// Has a 2% chance of moving to another district
 // Cannot interact with other denizens
 class Ignorant : public Denizen {
 public:
@@ -35,10 +35,18 @@ public:
     Ignorant(Denizen* old) : Denizen(20, old->getName()) {}
     // Destructor
     ~Ignorant() {}
+    // Polymorphic Move Function
+    virtual bool move() {
+        // Calculates the probability of movement
+        if ((rand() % 100) < 2) {
+            return true;
+        }
+        return false;
+    }
 };
 
 // Alarmed Class, child of Denizen
-// Has a 25% chance of being infected by a zombie
+// Has a 10% chance of being infected by a zombie
 // Has a 10% chance of moving to another district
 // Cannot interact with other denizens
 class Alarmed : public Denizen {
@@ -113,8 +121,8 @@ public:
 };
 
 // Doctor Class, child of Denizen
-// Has a 15% chance of being infected and a 40% chance of healing a zombie
-// Has a 100% chance of moving to another district
+// Has an 8% chance of being infected and a 90% chance of healing a zombie
+// Has a 90% chance of moving to another district
 // Can only interact with zombies
 class Doctor : public Denizen {
 public:
@@ -129,7 +137,7 @@ public:
         // Checks if neighbor is a zombie
         if (typeid(*neighbor) == typeid(Zombie)) {
             // Calculate probability of healing
-            if ((rand() % 100) < 50) {
+            if ((rand() % 100) < 90) {
                 // Create the alarmed version of the neighbor
                 Denizen* temp = new Alarmed(neighbor);
                 delete neighbor;
