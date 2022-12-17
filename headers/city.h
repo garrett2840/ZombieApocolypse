@@ -2,9 +2,14 @@
 #define CITY_H
 
 #include <iostream>
+#include <fstream>
 #include <list>
 #include "district.h"
 
+// City Class
+// Manages the district and denizen classes
+// Simulates movement of denizens between districts
+// Will run until every denizen becomes a zombie
 class City {
 private:
     std::string name; // Holds name 
@@ -13,11 +18,11 @@ private:
     int hour = 0; // Holds the current hour
 public:
     // Constructor
-    City(int population, std::string name);
+    City(int population, std::string name, std::string namesDirectory);
     // Getters
     std::string getStats();
     // Run Function
-    void run(int days);
+    void run();
     // Migrate Function
     void migrate();
     // Update Stats Function

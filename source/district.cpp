@@ -5,7 +5,7 @@ District::District(int population, std::string name, bool patientZero, bool medi
         if(i == 0 && patientZero == true) {
             this->population.push_back(new Zombie());
             updateStats(this->population[i]);
-        } else if (i < 5 && medicalHill == true) {
+        } else if (i < 9 && medicalHill == true) {
             this->population.push_back(new Doctor());
             updateStats(this->population[i]);
         } else {
@@ -26,11 +26,6 @@ std::string District::getStats() {
     return temp;
 }
 
-void District::addDenizen(Denizen* den) {
-    population.push_back(den);
-    updateStats(den);
-}
-
 void District::update() {
     int randIndex = rand() % population.size();
     for (int i = 0; i < population.size(); i++) {
@@ -38,9 +33,6 @@ void District::update() {
         updateStats(population[randIndex], false);
         population[i]->interact(population[randIndex]);
         updateStats(population[randIndex]);
-        updateStats(population[i], false);
-        population[randIndex]->interact(population[i]);
-        updateStats(population[i]);
     }
 }
 

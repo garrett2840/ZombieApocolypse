@@ -64,6 +64,19 @@
         "functional": "cpp",
         "iterator": "cpp",
         "utility": "cpp",
-        "list": "cpp"
-    }
+        "list": "cpp",
+        "__tree": "cpp",
+        "any": "cpp",
+        "condition_variable": "cpp",
+        "deque": "cpp",
+        "fstream": "cpp",
+        "iomanip": "cpp",
+        "iostream": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "stack": "cpp"
+    },
+    "cSpell.words": [
+        "zombified"
+    ]
 }

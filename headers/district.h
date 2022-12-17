@@ -17,10 +17,8 @@ public:
     // Getters
     std::string getName();
     std::string getStats();
-    // Setters
-    void addDenizen(Denizen* den);
     // Update Function
-    // Allows all denizens to interact with eachother
+    // Allows all denizens to interact with each other
     void update();
     // Update Stats Function
     // Adds or removes a denizen from the stat pool

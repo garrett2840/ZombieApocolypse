@@ -30,9 +30,9 @@ public:
 class Ignorant : public Denizen {
 public:
     // Constructor
-    Ignorant(std::string name = "Not Assigned") : Denizen(25, name) {}
+    Ignorant(std::string name = "Not Assigned") : Denizen(20, name) {}
     // Copy Constructor
-    Ignorant(Denizen* old) : Denizen(25, old->getName()) {}
+    Ignorant(Denizen* old) : Denizen(20, old->getName()) {}
     // Destructor
     ~Ignorant() {}
 };
@@ -44,9 +44,9 @@ public:
 class Alarmed : public Denizen {
 public:
     // Constructor
-    Alarmed(std::string name = "Not Assigned") : Denizen(15, name) {}
+    Alarmed(std::string name = "Not Assigned") : Denizen(10, name) {}
     // Copy Constructor
-    Alarmed(Denizen* old) : Denizen(15, old->getName()) {}
+    Alarmed(Denizen* old) : Denizen(10, old->getName()) {}
     // Destructor
     ~Alarmed() {}
     // Polymorphic Interact Function
@@ -54,7 +54,7 @@ public:
         // Checks if neighbor is ignorant
         if (typeid(*neighbor) == typeid(Ignorant)) {
             // Calculate Probability of becoming alarmed
-            if ((rand() % 100) < 30) {
+            if ((rand() % 100) < 25) {
                 // Create the alarmed version of the neighbor
                 Denizen* temp = new Alarmed(neighbor);
                 delete neighbor;
@@ -64,7 +64,7 @@ public:
     }
     // Polymorphic Move Function
     virtual bool move() {
-        // Calculates the probabilty of movement
+        // Calculates the probability of movement
         if ((rand() % 100) < 10) {
             return true;
         }
@@ -73,7 +73,7 @@ public:
 };
 
 // Zombie Class, child class of Denizen
-// Has a 0% chance of being infected and various probabilies of infecting other denizens
+// Has a 0% chance of being infected and various probabilities of infecting other denizens
 // Has a 5% chance of moving to another district
 // Can interact with any denizen type except other zombies
 class Zombie : public Denizen {
@@ -104,7 +104,7 @@ public:
     }
     // Polymorphic Move Function
     virtual bool move() {
-        // Calculates the probabilty of movement
+        // Calculates the probability of movement
         if ((rand() % 100) < 5) {
             return true;
         }
@@ -119,9 +119,9 @@ public:
 class Doctor : public Denizen {
 public:
     // Constructor
-    Doctor(std::string name = "Not Assigned") : Denizen(10, name) {}
+    Doctor(std::string name = "Not Assigned") : Denizen(8, name) {}
     // Copy Constructor
-    Doctor(Denizen* old) : Denizen(10, old->getName()) {}
+    Doctor(Denizen* old) : Denizen(8, old->getName()) {}
     // Destructor
     ~Doctor() {}
     // Polymorphic Interact Function
@@ -129,7 +129,7 @@ public:
         // Checks if neighbor is a zombie
         if (typeid(*neighbor) == typeid(Zombie)) {
             // Calculate probability of healing
-            if ((rand() % 100) < 40) {
+            if ((rand() % 100) < 50) {
                 // Create the alarmed version of the neighbor
                 Denizen* temp = new Alarmed(neighbor);
                 delete neighbor;
@@ -138,7 +138,13 @@ public:
         }
     }
     // Polymorphic Move Function
-    virtual bool move() { return true; }
+    virtual bool move() {
+        // Calculates the probability of movement
+        if ((rand() % 100) < 90) {
+            return true;
+        }
+        return false;
+    }
 };
 
 #endif
